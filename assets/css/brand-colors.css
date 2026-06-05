@@ -1,0 +1,408 @@
+/*-------------------------------------------------------------
+Bixol - Brand Colors Override
+New Brand Identity: Modern Premium Cleaning Company
+--------------------------------------------------------------*/
+
+/* BRAND COLORS */
+:root {
+  /* Primary colors from brand guidelines */
+  --primary-blue: #4A9CFF;
+  --dark-blue: #0E4A8A;
+  --green: #4B8F1F;
+  --accent-orange: #F43A17;
+  
+  /* Legacy color mapping for compatibility */
+  --legacy-cyan: #22d3ee;
+  --legacy-blue: #267ff9;
+}
+
+/* Headings - Dark Blue */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: var(--dark-blue) !important;
+}
+
+/* Primary color replacements - Icons and Highlights (Primary Blue) */
+.icon-box,
+.service-icon,
+.feature-icon,
+.box-icon i,
+.box-icon svg,
+.flaticon-cleaning:before,
+.flaticon-mop:before,
+.flaticon-vacuum-cleaner:before,
+[class*="flaticon-"]:before,
+[class^="flaticon-"]:before {
+  color: var(--primary-blue) !important;
+}
+
+/* CTA Buttons - Orange for conversion */
+.btn-primary,
+.thm-btn,
+.default-btn,
+.site-btn,
+.button-one,
+.btn-one,
+.action-btn,
+.cta-button,
+button[type="submit"],
+input[type="submit"],
+.btn.bg-primary {
+  background-color: var(--accent-orange) !important;
+  border-color: var(--accent-orange) !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.thm-btn:hover,
+.default-btn:hover,
+.site-btn:hover,
+.button-one:hover,
+.btn-one:hover,
+.action-btn:hover,
+.cta-button:hover,
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background-color: #d62f0f !important;
+  border-color: #d62f0f !important;
+}
+
+/* Trust badges and benefits - Green */
+.trust-badge,
+.benefit-item,
+.checkmark-icon,
+.success-icon,
+.verified-badge,
+.quality-badge,
+.eco-friendly-badge,
+.guarantee-icon {
+  color: var(--green) !important;
+}
+
+/* Lists with checkmarks */
+ul.check-list li:before,
+ul.feature-list li:before,
+.list-style-one li:before {
+  color: var(--green) !important;
+}
+
+/* Links and highlights - Primary Blue */
+a,
+.link,
+.text-primary,
+.highlight {
+  color: var(--primary-blue) !important;
+}
+
+a:hover,
+.link:hover {
+  color: var(--dark-blue) !important;
+}
+
+/* Background accents - Primary Blue */
+.bg-primary,
+.primary-bg {
+  background-color: var(--primary-blue) !important;
+}
+
+/* Dark blue backgrounds for sections */
+.bg-dark-blue,
+.section-header,
+.header-area {
+  background-color: var(--dark-blue) !important;
+}
+
+/* Green backgrounds for trust elements */
+.bg-green,
+.trust-section {
+  background-color: var(--green) !important;
+}
+
+/* Border colors */
+.border-primary {
+  border-color: var(--primary-blue) !important;
+}
+
+/* Icon backgrounds */
+.icon-bg-primary {
+  background-color: var(--primary-blue) !important;
+}
+
+.icon-bg-green {
+  background-color: var(--green) !important;
+}
+
+/* Service cards and feature boxes */
+.service-card:hover,
+.feature-box:hover {
+  border-color: var(--primary-blue) !important;
+  box-shadow: 0 10px 30px rgba(74, 156, 255, 0.15);
+}
+
+/* Counter and statistic numbers */
+.counter-number,
+.stat-number,
+.odometer {
+  color: var(--primary-blue) !important;
+}
+
+/* Testimonial quotes */
+.quote-icon,
+.testimonial-quote {
+  color: var(--green) !important;
+}
+
+/* Pricing table highlights */
+.pricing-table.featured,
+.pricing-table.popular {
+  border-color: var(--accent-orange) !important;
+}
+
+.pricing-table .price {
+  color: var(--dark-blue) !important;
+}
+
+/* Footer links */
+.footer-widget ul li a:hover {
+  color: var(--primary-blue) !important;
+}
+
+/* Contact info icons */
+.contact-info-icon {
+  color: var(--primary-blue) !important;
+}
+
+/* Form focus states */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--primary-blue) !important;
+  box-shadow: 0 0 0 3px rgba(74, 156, 255, 0.15);
+}
+
+/* Progress bars */
+.progress-bar {
+  background-color: var(--primary-blue) !important;
+}
+
+/* Accordion active states */
+.accordion-item.active,
+.faq-item.active {
+  border-color: var(--primary-blue) !important;
+}
+
+.accordion-item.active .accordion-header,
+.faq-item.active .faq-header {
+  color: var(--primary-blue) !important;
+}
+
+/* Team member hover effects */
+.team-member:hover .team-social {
+  background-color: var(--primary-blue) !important;
+}
+
+/* Portfolio overlay */
+.portfolio-overlay {
+  background-color: rgba(14, 74, 138, 0.9) !important;
+}
+
+/* Preloader */
+.preloader-inner {
+  border-top-color: var(--accent-orange) !important;
+  border-right-color: var(--primary-blue) !important;
+  border-bottom-color: var(--green) !important;
+  border-left-color: var(--dark-blue) !important;
+}
+
+/* Scroll to top button */
+.scroll-top {
+  background-color: var(--accent-orange) !important;
+}
+
+.scroll-top:hover {
+  background-color: #d62f0f !important;
+}
+
+/* Newsletter button */
+.newsletter-btn {
+  background-color: var(--accent-orange) !important;
+}
+
+/* Special offers and badges */
+.special-offer,
+.promotion-badge {
+  background-color: var(--accent-orange) !important;
+}
+
+/* Eco-friendly indicators */
+.eco-badge,
+.green-certified {
+  color: var(--green) !important;
+  border-color: var(--green) !important;
+}
+
+/* Star ratings */
+.rating-star,
+.star-filled {
+  color: var(--accent-orange) !important;
+}
+
+/* Timeline connectors */
+.timeline-connector {
+  background-color: var(--primary-blue) !important;
+}
+
+/* Step indicators */
+.step-indicator.active,
+.step-indicator.completed {
+  background-color: var(--green) !important;
+  border-color: var(--green) !important;
+}
+
+/* Info boxes */
+.info-box-icon {
+  color: var(--primary-blue) !important;
+}
+
+/* Callout sections */
+.callout-section {
+  border-left-color: var(--accent-orange) !important;
+}
+
+/* Divider lines */
+.divider-primary {
+  background-color: var(--primary-blue) !important;
+}
+
+/* Hover card effects */
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(14, 74, 138, 0.15);
+}
+
+/* Gradient backgrounds using brand colors */
+.gradient-primary {
+  background: linear-gradient(135deg, var(--dark-blue) 0%, var(--primary-blue) 100%);
+}
+
+.gradient-success {
+  background: linear-gradient(135deg, var(--green) 0%, #6abf3e 100%);
+}
+
+.gradient-cta {
+  background: linear-gradient(135deg, var(--accent-orange) 0%, #ff5733 100%);
+}
+
+/* Text utilities */
+.text-dark-blue {
+  color: var(--dark-blue) !important;
+}
+
+.text-primary-blue {
+  color: var(--primary-blue) !important;
+}
+
+.text-green {
+  color: var(--green) !important;
+}
+
+.text-orange {
+  color: var(--accent-orange) !important;
+}
+
+/* Background utilities */
+.bg-dark-blue {
+  background-color: var(--dark-blue) !important;
+}
+
+.bg-primary-blue {
+  background-color: var(--primary-blue) !important;
+}
+
+.bg-green {
+  background-color: var(--green) !important;
+}
+
+.bg-orange {
+  background-color: var(--accent-orange) !important;
+}
+
+/* Button variants */
+.btn-dark-blue {
+  background-color: var(--dark-blue) !important;
+  border-color: var(--dark-blue) !important;
+  color: #ffffff !important;
+}
+
+.btn-dark-blue:hover {
+  background-color: #0a3a6e !important;
+  border-color: #0a3a6e !important;
+}
+
+.btn-green {
+  background-color: var(--green) !important;
+  border-color: var(--green) !important;
+  color: #ffffff !important;
+}
+
+.btn-green:hover {
+  background-color: #3d7519 !important;
+  border-color: #3d7519 !important;
+}
+
+.btn-outline-primary {
+  background-color: transparent !important;
+  border-color: var(--primary-blue) !important;
+  color: var(--primary-blue) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-blue) !important;
+  color: #ffffff !important;
+}
+
+/* Alert and notification colors */
+.alert-success {
+  border-left-color: var(--green) !important;
+}
+
+.alert-info {
+  border-left-color: var(--primary-blue) !important;
+}
+
+.alert-warning {
+  border-left-color: var(--accent-orange) !important;
+}
+
+/* Modern styling enhancements */
+.rounded-lg {
+  border-radius: 12px;
+}
+
+.rounded-xl {
+  border-radius: 16px;
+}
+
+.shadow-soft {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 10px 40px rgba(14, 74, 138, 0.12);
+}
+
+/* White space enhancement */
+.section-padding {
+  padding: 80px 0;
+}
+
+@media (min-width: 992px) {
+  .section-padding {
+    padding: 100px 0;
+  }
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.3s ease;
+}
