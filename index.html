@@ -103,7 +103,7 @@
                 <div class="container">
                     <div class="bixol-header-top-content">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-5">
                                 <div class="bixol-header-top-left">
                                     <div class="bixol-header-item">
                                         <span class="bixol-icon-wrapper">
@@ -126,7 +126,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-7">
                                 <div class="bixol-header-top-right">
                                     <div class="bixol-header-item">
                                         <span class="bixol-icon-wrapper">
@@ -163,7 +163,6 @@
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#services">Services</a></li>
                                 <li><a href="#why-choose-us">Why Choose Us</a></li>
-                                <li><a href="#process">How It Works</a></li>
                                 <li><a href="#testimonials">Reviews</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="#contact">Contact Us</a></li>
@@ -196,7 +195,6 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#why-choose-us">Why Choose Us</a></li>
-                <li><a href="#process">How It Works</a></li>
                 <li><a href="#testimonials">Reviews</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Contact Us</a></li>
@@ -655,6 +653,49 @@
             }
             .faq-accordion .btn-link:not(.collapsed) i {
                 transform: rotate(180deg) !important;
+            }
+
+            /* Header Logo Overlap Fix */
+            .bixol-header .bixol-navigation .bixol-nav .bixol-header-logo {
+                width: 115px !important;
+                background: #ffffff !important;
+                padding: 10px !important;
+                border-radius: 50% !important;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+                top: 50% !important;
+                transform: translate(-50%, -42%) !important;
+            }
+            .bixol-header .bixol-navigation .bixol-nav .bixol-header-logo img {
+                width: 100% !important;
+                height: auto !important;
+                display: block !important;
+            }
+            .header-sticky.bixol-header .bixol-navigation .bixol-nav .bixol-header-logo {
+                width: 90px !important;
+                transform: translate(-50%, -35%) !important;
+                padding: 5px !important;
+            }
+            /* Nav items padding adjustments for extra spacing */
+            .bixol-navigation .desktop-menu ul li a {
+                padding: 18px 18px !important;
+            }
+            .bixol-navigation .desktop-menu ul li + li {
+                margin-left: 20px !important;
+            }
+
+            /* Header Top Bar Font Adjustments */
+            .bixol-header .bixol-header-top .bixol-header-item .bixol-item-content span {
+                font-size: 15px !important;
+            }
+            .bixol-header .bixol-header-top .bixol-header-top-right {
+                gap: 30px !important;
+            }
+            .bixol-header .bixol-header-top .bixol-header-top-left {
+                gap: 30px !important;
+            }
+            .bixol-header .bixol-header-top .bixol-header-top-right .bixol-header-item:first-child::after,
+            .bixol-header .bixol-header-top .bixol-header-top-left .bixol-header-item:first-child::after {
+                right: -17px !important;
             }
         </style>
 
