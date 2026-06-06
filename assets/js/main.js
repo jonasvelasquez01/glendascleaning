@@ -17,7 +17,6 @@ Last change:    00/00/00
 
 		Basic: {
 			init: function() {
-				this.preloader();
 				this.BackgroundImage();
 				this.ScrollTopBtn();
 				this.Animation();
@@ -34,12 +33,6 @@ Last change:    00/00/00
 				this.BixolCounterUp(); 
 				this.GridMassonry();
 				this.CountDown();
-			},
-
-			preloader: function (){
-				$(window).on('load', function() {
-					$("#ct-loadding").fadeOut();
-				});
 			},
 
 			BackgroundImage: function (){
